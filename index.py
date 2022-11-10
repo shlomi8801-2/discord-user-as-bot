@@ -2,7 +2,6 @@ import requests
 import random, string
 import time
 
-channels = ['1034035170463973418','1028609219831803964','1027919962863566961','1028207485846298735','1028608016888631316']
 class discord:
     url = 'https://discord.com/api/v9/channels/'
     token = "TOKEN"
