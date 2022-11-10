@@ -11,12 +11,6 @@ class discord:
     channelid = "1034035170463973418"
 discord.url = discord.url + discord.channelid + "/messages"
 while True:
-    response2 = requests.get('https://100k-faces.glitch.me/random-image-url')
-    print(response2.text[8:-2])
-
-    discord.message = response2.text[8:-2]
-
-
 
 
     headers = {"Authorization": discord.token, "content-type": "application/json"}
