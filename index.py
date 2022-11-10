@@ -5,7 +5,7 @@ import time
 channels = ['1034035170463973418','1028609219831803964','1027919962863566961','1028207485846298735','1028608016888631316']
 class discord:
     url = 'https://discord.com/api/v9/channels/'
-    token = "ODQ0MjUyNDQ0NTA1ODAwNzk0.Gr6ANS.0xzNEXrdMTtRgUgpxmRAmye7SFnLc-HtJk1N9c"
+    token = "TOKEN"
     message = "roy is homo"
     contenttype = "application/json"
     channelid = "1034035170463973418"
